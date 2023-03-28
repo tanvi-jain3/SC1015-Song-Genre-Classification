@@ -16,5 +16,13 @@ Personalized music recommendation that suits individual preferences are becoming
 * Are we able to predict the genre of a music based on audio features?.  
 * Which Model would be the best solution to assist with our prediction?.
 
-## Contributors
+## Contributors:
+
+## Models Used:
+
+## Conclusion:
+
+## Learning Points:
+
+## References:
 
