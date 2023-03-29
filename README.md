@@ -1,5 +1,6 @@
 # SC1015-Project-Song-Popularity
-![image](https://user-images.githubusercontent.com/99631047/228567779-c974fabe-2338-4666-99a2-48f3b86ad789.png)
+![Green White Creative Tunes Music Festival Canvas Banner](https://user-images.githubusercontent.com/99631047/228569481-1bd250af-63a4-4a61-8672-8423751f36a3.png)
+
 
 ## About:
 
