@@ -1,4 +1,4 @@
-# SC1015-Project-Song-Popularity
+# SC1015-Song-Genre-Classification
 ![Green White Creative Tunes Music Festival Canvas Banner](https://user-images.githubusercontent.com/99631047/228569481-1bd250af-63a4-4a61-8672-8423751f36a3.png)
 
 
