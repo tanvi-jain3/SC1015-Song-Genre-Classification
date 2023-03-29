@@ -9,12 +9,15 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## Problem Statement:
 
-Personalized music recommendation that suits individual preferences are becoming more and more in demand as music continues to be a current trend. Each individual has their own prefences of music. We as a group of data scientist would like to help everyone in enhancing their musical listening experience by predicting music categories using machine learning. To better the music recommendation algorithms, better knowledge of the characteristics of various genres is needed. Users can expand their musical interests from this, in addition to learning about new songs.
+Personalized music recommendation that suits individual preferences are becoming more and more in demand as music continues to be a current trend. Each individual has their own prefences of music. We as a group of data scientists would like to help everyone in enhancing their musical listening experience by predicting music categories using machine learning. To better the music recommendation algorithms, better knowledge of the characteristics of various genres is needed. Users can expand their musical interests from this, in addition to learning about new songs.
+
+This idea could be used in many ways. We could use this to classify songs with ambiguous genres, which could help listeners find songs of their liking. It could also allow users to generate playlists of songs which are similar to ones they already like, leading to an increase in enjoyment and happiness among users. 
 
 ## Problem Definition:
 
-* Are we able to predict the genre of a music based on audio features?.  
-* Which Model would be the best solution to assist with our prediction?.
+* Are we able to predict the genre of a music based on audio features?  
+* Which Model would be the best solution to assist with our prediction?
+* How accurate is our model in the prediction of song genre?
 
 ## Contributors:
 
@@ -25,4 +28,5 @@ Personalized music recommendation that suits individual preferences are becoming
 ## Learning Points:
 
 ## References:
+Explanation for zero value of probability of chi-square hypothesis : https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0
 
