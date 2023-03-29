@@ -1,4 +1,5 @@
 # SC1015-Project-Song-Popularity
+![image](https://user-images.githubusercontent.com/99631047/228567779-c974fabe-2338-4666-99a2-48f3b86ad789.png)
 
 ## About:
 
