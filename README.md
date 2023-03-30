@@ -26,6 +26,8 @@ This idea could be used in many ways. We could use this to classify songs with a
 ## Dataset Description :
 We used a dataset from https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
 
+Name of Variable | Description of variable
+--- | --- |
 genre | The genre of the song |  
 --- | --- |      
  artist_name| The name of the artist who sang the song |      
