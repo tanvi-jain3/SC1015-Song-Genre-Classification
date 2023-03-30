@@ -23,6 +23,53 @@ This idea could be used in many ways. We could use this to classify songs with a
 
 ## Contributors:
 
+## Dataset Description :
+We used a dataset from https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
+
+genre | The genre of the song |
+--- | --- | --- |
+ artist_name| The name of the artist who sang the song |
+--- | --- | --- |
+track_name | The name of the song|
+--- | --- | --- |
+ track_id| The Spotify identification number of the track|
+--- | --- | --- |
+popularity | The popularity of the song |
+--- | --- | --- |
+ acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one. |
+--- | --- | --- |
+danceability | How suited the song is for dancing. |
+--- | --- | --- |
+ energy | A perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy |
+--- | --- | --- |
+popularity | The popularity of the song |
+--- | --- | --- |
+ acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one |
+--- | --- | --- |
+instrumentalness | The amount of vocals in the song. The closer to 1.0, the more likely it is to be instrumental |
+--- | --- | --- |
+key | The key in which the song was written. |
+--- | --- | --- |
+liveness | If the song was recorded live or not |
+--- | --- | --- |
+loudness | The loudness of the song in decibels |
+--- | --- | --- |
+mode | Whether the song is in a Major or Minor scale |
+--- | --- | --- |
+speechiness | The presence of spoken words in the track |
+--- | --- | --- |
+tempo | The tempo of the song |
+--- | --- | --- |
+time_signature | The time signature of the track |
+--- | --- | --- |
+valence | the positiveness of the track. A high valence value denotes a positive mood for the song. |
+--- | --- | --- |
+
+
+
+
+
+
 ## Models Used:
 
 ## Conclusion:
@@ -31,4 +78,5 @@ This idea could be used in many ways. We could use this to classify songs with a
 
 ## References:
 Explanation for zero value of probability of chi-square hypothesis : https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0
+Dataset : taken from https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv
 
