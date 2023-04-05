@@ -33,38 +33,34 @@ genre | The genre of the song |
  artist_name| The name of the artist who sang the song |      
  --- | --- |       
  track_name | The name of the song|         
- --- | --- |        
- track_id| The Spotify identification number of the track|        
- --- | --- |      
+ --- | --- |             
  popularity | The popularity of the song |        
  --- | --- |        
- acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one. |       
+ acousticness | Acousticness is measured on a scale of 0.0 (not acoustic) to 1.0 (very acoustic). Songs with higher acousticness are more likely to use acoustic and non-electronic instruments. |       
  --- | --- |     
- danceability | How suited the song is for dancing. |        
+ danceability | Danceability quantifies how suitable a track is for dancing based on a combination of musical elements, like tempo, rhythm, and beat. Songs with higher danceability have stronger and more regular beats. Like acousticness, danceability is measured on a scale of 0.0 (low danceability) to 1.0 (high danceability). |        
  --- | --- |      
- energy | A perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy |      
+ energy | Energy measures the perceived intensity and activity of a song. Energy is also measured on a scale of 0.0 (low energy) to 1.0 (high energy). Songs with higher energy are more intense, dynamic, and loud. |      
  --- | --- |    
  popularity | The popularity of the song |      
  --- | --- |    
  acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one |      
  --- | --- |            
- instrumentalness | The amount of vocals in the song. The closer to 1.0, the more likely it is to be instrumental |     
+ instrumentalness | Instrumentalness predicts whether a track contains vocals. Instrumentalness is measured on a scale of 0.0 (likely contains vocal content) to 1.0 (likely contains no vocal content). Songs with higher instrumentalness are less likely to have vocals. |     
  --- | --- |     
  key | The key in which the song was written. |
 --- | --- | 
-liveness | If the song was recorded live or not |
+liveness | This variable detects the presence of an audience in the song. Liveness is also measured on a scale of 0.0 (no audience) to 1.0 (audible audience). Songs with higher liveness are more likely to have been performed live.|
 --- | --- |
-loudness | The loudness of the song in decibels |
+loudness | Loudness measures the decibel level of a song. Decibels are relative to a reference value, so songs with lower loudness values are quieter relative to the reference value of 0. |
 --- | --- | 
 mode | Whether the song is in a Major or Minor scale |
 --- | --- | 
-speechiness | The presence of spoken words in the track |
+speechiness | Speechiness measures the presence of spoken words in a song. It is measured on a scale of 0.0 (low speechiness) to 1.0 (high speechiness). Songs with higher speechiness are mostly composed of spoken words, like poetry or a talk show.  |
 --- | --- | 
-tempo | The tempo of the song |
+tempo | Tempo measures the beats per minute (bpm) of a song. Many popular songs range from 50 bpm to 200 bpm. Songs with higher tempo have a faster pace. |
 --- | --- | 
-time_signature | The time signature of the track |
---- | --- | 
-valence | the positiveness of the track. A high valence value denotes a positive mood for the song. |
+valence | valence measures the positivity of a song. It is measured on a scale from 0.0 (low valence) to 1.0 (high valence). Songs with higher valence sound happier and more cheerful.|
 --- | --- | 
 
 
@@ -73,8 +69,13 @@ valence | the positiveness of the track. A high valence value denotes a positive
 
 
 ## Models Used:
+1) Multi-Variate Decision Tree
+2) Random Forest Classifier (?)
 
 ## Conclusion:
+Upon generating boxplots for the numeric variables against the genre, we learnt that popularity is the variable with the most influence on the genre of the song. This means that different genres of music enjoy different levels of popularity, with the median for the boxplot being highest for hip-hop and pop. This gives us insight into the listening habits of our generation : that we enjoy pop and hip-hop over lower-ranking genres such as Classical Music. 
+
+
 
 ## Learning Points:
 
