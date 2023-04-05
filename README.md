@@ -33,9 +33,7 @@ genre | The genre of the song |
  artist_name| The name of the artist who sang the song |      
  --- | --- |       
  track_name | The name of the song|         
- --- | --- |        
- track_id| The Spotify identification number of the track|        
- --- | --- |      
+     |     |             
  popularity | The popularity of the song |        
  --- | --- |        
  acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one. |       
