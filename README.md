@@ -42,9 +42,7 @@ genre | The genre of the song |
  --- | --- |      
  energy | Energy measures the perceived intensity and activity of a song. Energy is also measured on a scale of 0.0 (low energy) to 1.0 (high energy). Songs with higher energy are more intense, dynamic, and loud. |      
  --- | --- |    
- popularity | The popularity of the song |      
- --- | --- |    
- acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one |      
+ popularity | The popularity of the song |      |      
  --- | --- |            
  instrumentalness | Instrumentalness predicts whether a track contains vocals. Instrumentalness is measured on a scale of 0.0 (likely contains vocal content) to 1.0 (likely contains no vocal content). Songs with higher instrumentalness are less likely to have vocals. |     
  --- | --- |     
