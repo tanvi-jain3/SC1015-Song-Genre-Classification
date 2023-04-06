@@ -57,6 +57,15 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 
 ## Learning Points:
 
+* Collaborating with othere using GitHub.
+* Implementation of Chi-Square test, using p-values to measure the correlation between two categorical variables.
+* The use of K-Cross Validation to determine the optimal depth of a tree that should be sued to provide the most accurate results.
+* Encoding categorical variables using Label Encoder.
+* How to predict a categorical variable using both numeric and categorical predictors.
+* Usage of Random Forest Classifier from SKLearn.
+* Handling an unclean dataset with irregular values.
+
+
 ## References:
 1. [Explanation for zero value of probability of chi-square hypothesis](https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0)
 2. [Dataset](https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv)
