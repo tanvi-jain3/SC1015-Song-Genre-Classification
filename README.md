@@ -22,63 +22,57 @@ This idea could be used in many ways. We could use this to classify songs with a
 * How accurate is our model in the prediction of song genre?
 
 ## Contributors:
+Ivan Cheng, Tanvi Jain, Ethan Yeo
 
 ## Dataset Description :
-We used a dataset from https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
+We used a dataset from [Aneta Kovacheva on Kaggle](https://www.kaggle.com/code/anetakovacheva/interpreting-a-music-genre-classifier) for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
 
 Name of Variable | Description of variable
 --- | --- |
-genre | The genre of the song |  
---- | --- |      
- artist_name| The name of the artist who sang the song |      
- --- | --- |       
- track_name | The name of the song|         
- --- | --- |        
- track_id| The Spotify identification number of the track|        
- --- | --- |      
- popularity | The popularity of the song |        
- --- | --- |        
- acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one. |       
- --- | --- |     
- danceability | How suited the song is for dancing. |        
- --- | --- |      
- energy | A perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy |      
- --- | --- |    
- popularity | The popularity of the song |      
- --- | --- |    
- acousticness | How acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one |      
- --- | --- |            
- instrumentalness | The amount of vocals in the song. The closer to 1.0, the more likely it is to be instrumental |     
- --- | --- |     
+genre | The genre of the song |        
+ artist_name| The name of the artist who sang the song |           
+ track_name | The name of the song|                    
+ popularity | The popularity of the song |                
+ acousticness | Acousticness is measured on a scale of 0.0 (not acoustic) to 1.0 (very acoustic). Songs with higher acousticness are more likely to use acoustic and non-electronic instruments. |          
+ danceability | Danceability quantifies how suitable a track is for dancing based on a combination of musical elements, like tempo, rhythm, and beat. Songs with higher danceability have stronger and more regular beats. Like acousticness, danceability is measured on a scale of 0.0 (low danceability) to 1.0 (high danceability). |              
+ energy | Energy measures the perceived intensity and activity of a song. Energy is also measured on a scale of 0.0 (low energy) to 1.0 (high energy). Songs with higher energy are more intense, dynamic, and loud. |         
+ popularity | The popularity of the song |      |                  
+ instrumentalness | Instrumentalness predicts whether a track contains vocals. Instrumentalness is measured on a scale of 0.0 (likely contains vocal content) to 1.0 (likely contains no vocal content). Songs with higher instrumentalness are less likely to have vocals. |          
  key | The key in which the song was written. |
---- | --- | 
-liveness | If the song was recorded live or not |
---- | --- |
-loudness | The loudness of the song in decibels |
---- | --- | 
-mode | Whether the song is in a Major or Minor scale |
---- | --- | 
-speechiness | The presence of spoken words in the track |
---- | --- | 
-tempo | The tempo of the song |
---- | --- | 
-time_signature | The time signature of the track |
---- | --- | 
-valence | the positiveness of the track. A high valence value denotes a positive mood for the song. |
---- | --- | 
-
-
-
-
-
+liveness | This variable detects the presence of an audience in the song. Liveness is also measured on a scale of 0.0 (no audience) to 1.0 (audible audience). Songs with higher liveness are more likely to have been performed live.|
+loudness | Loudness measures the decibel level of a song. Decibels are relative to a reference value, so songs with lower loudness values are quieter relative to the reference value of 0. | 
+mode | Whether the song is in a Major or Minor scale | 
+speechiness | Speechiness measures the presence of spoken words in a song. It is measured on a scale of 0.0 (low speechiness) to 1.0 (high speechiness). Songs with higher speechiness are mostly composed of spoken words, like poetry or a talk show.  | 
+tempo | Tempo measures the beats per minute (bpm) of a song. Many popular songs range from 50 bpm to 200 bpm. Songs with higher tempo have a faster pace. |
+valence | valence measures the positivity of a song. It is measured on a scale from 0.0 (low valence) to 1.0 (high valence). Songs with higher valence sound happier and more cheerful.| 
 
 ## Models Used:
+1) Multi-Variate Decision Tree
+2) Random Forest Classifier (?)
 
 ## Conclusion:
+Upon generating boxplots for the numeric variables against the genre, we learnt that popularity is the variable with the most influence on the genre of the song. This means that different genres of music enjoy different levels of popularity, with the median for the boxplot being highest for hip-hop and pop. This gives us insight into the listening habits of our generation : that we enjoy pop and hip-hop over lower-ranking genres such as Classical Music. 
+
+
 
 ## Learning Points:
 
+* Collaborating with othere using GitHub.
+* Implementation of Chi-Square test, using p-values to measure the correlation between two categorical variables.
+* The use of K-Cross Validation to determine the optimal depth of a tree that should be sued to provide the most accurate results.
+* Encoding categorical variables using Label Encoder.
+* How to predict a categorical variable using both numeric and categorical predictors.
+* Usage of Random Forest Classifier from SKLearn.
+* Handling an unclean dataset with irregular values.
+
+
 ## References:
-Explanation for zero value of probability of chi-square hypothesis : https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0
-Dataset : taken from https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv
+1. [Explanation for zero value of probability of chi-square hypothesis](https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0)
+2. [Dataset](https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv)
+3. [Grid Search and Cross-Validation](https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b) 
+4. [Label Encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd) 
+5. [K-Cross validation to find the oiptimal depth of a tree](https://towardsdatascience.com/how-to-find-decision-tree-depth-via-cross-validation-2bf143f0f3d6)
+
+
+
 
