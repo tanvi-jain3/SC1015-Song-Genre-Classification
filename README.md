@@ -22,6 +22,7 @@ This idea could be used in many ways. We could use this to classify songs with a
 * How accurate is our model in the prediction of song genre?
 
 ## Contributors:
+Ivan Cheng, Tanvi Jain, Ethan Yeo
 
 ## Dataset Description :
 We used a dataset from [Aneta Kovacheva on Kaggle](https://www.kaggle.com/code/anetakovacheva/interpreting-a-music-genre-classifier) for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
@@ -44,11 +45,6 @@ mode | Whether the song is in a Major or Minor scale |
 speechiness | Speechiness measures the presence of spoken words in a song. It is measured on a scale of 0.0 (low speechiness) to 1.0 (high speechiness). Songs with higher speechiness are mostly composed of spoken words, like poetry or a talk show.  | 
 tempo | Tempo measures the beats per minute (bpm) of a song. Many popular songs range from 50 bpm to 200 bpm. Songs with higher tempo have a faster pace. |
 valence | valence measures the positivity of a song. It is measured on a scale from 0.0 (low valence) to 1.0 (high valence). Songs with higher valence sound happier and more cheerful.| 
-
-
-
-
-
 
 ## Models Used:
 1) Multi-Variate Decision Tree
