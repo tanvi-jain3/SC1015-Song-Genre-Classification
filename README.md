@@ -66,6 +66,7 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 2. [Dataset](https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv)
 3. [Grid Search and Cross-Validation](https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b) 
 4. [Label Encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd) 
+5. [K-Cross validation to find the oiptimal depth of a tree](https://towardsdatascience.com/how-to-find-decision-tree-depth-via-cross-validation-2bf143f0f3d6)
 
 
 
