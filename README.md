@@ -28,38 +28,22 @@ We used a dataset from https://www.kaggle.com/code/debarpitosarkar/spotify-genre
 
 Name of Variable | Description of variable
 --- | --- |
-genre | The genre of the song |  
---- | --- |      
- artist_name| The name of the artist who sang the song |      
- --- | --- |       
- track_name | The name of the song|         
- --- | --- |             
- popularity | The popularity of the song |        
- --- | --- |        
- acousticness | Acousticness is measured on a scale of 0.0 (not acoustic) to 1.0 (very acoustic). Songs with higher acousticness are more likely to use acoustic and non-electronic instruments. |       
- --- | --- |     
- danceability | Danceability quantifies how suitable a track is for dancing based on a combination of musical elements, like tempo, rhythm, and beat. Songs with higher danceability have stronger and more regular beats. Like acousticness, danceability is measured on a scale of 0.0 (low danceability) to 1.0 (high danceability). |        
- --- | --- |      
- energy | Energy measures the perceived intensity and activity of a song. Energy is also measured on a scale of 0.0 (low energy) to 1.0 (high energy). Songs with higher energy are more intense, dynamic, and loud. |      
- --- | --- |    
- popularity | The popularity of the song |      |      
- --- | --- |            
- instrumentalness | Instrumentalness predicts whether a track contains vocals. Instrumentalness is measured on a scale of 0.0 (likely contains vocal content) to 1.0 (likely contains no vocal content). Songs with higher instrumentalness are less likely to have vocals. |     
- --- | --- |     
+genre | The genre of the song |        
+ artist_name| The name of the artist who sang the song |           
+ track_name | The name of the song|                    
+ popularity | The popularity of the song |                
+ acousticness | Acousticness is measured on a scale of 0.0 (not acoustic) to 1.0 (very acoustic). Songs with higher acousticness are more likely to use acoustic and non-electronic instruments. |          
+ danceability | Danceability quantifies how suitable a track is for dancing based on a combination of musical elements, like tempo, rhythm, and beat. Songs with higher danceability have stronger and more regular beats. Like acousticness, danceability is measured on a scale of 0.0 (low danceability) to 1.0 (high danceability). |              
+ energy | Energy measures the perceived intensity and activity of a song. Energy is also measured on a scale of 0.0 (low energy) to 1.0 (high energy). Songs with higher energy are more intense, dynamic, and loud. |         
+ popularity | The popularity of the song |      |                  
+ instrumentalness | Instrumentalness predicts whether a track contains vocals. Instrumentalness is measured on a scale of 0.0 (likely contains vocal content) to 1.0 (likely contains no vocal content). Songs with higher instrumentalness are less likely to have vocals. |          
  key | The key in which the song was written. |
---- | --- | 
 liveness | This variable detects the presence of an audience in the song. Liveness is also measured on a scale of 0.0 (no audience) to 1.0 (audible audience). Songs with higher liveness are more likely to have been performed live.|
---- | --- |
-loudness | Loudness measures the decibel level of a song. Decibels are relative to a reference value, so songs with lower loudness values are quieter relative to the reference value of 0. |
---- | --- | 
-mode | Whether the song is in a Major or Minor scale |
---- | --- | 
-speechiness | Speechiness measures the presence of spoken words in a song. It is measured on a scale of 0.0 (low speechiness) to 1.0 (high speechiness). Songs with higher speechiness are mostly composed of spoken words, like poetry or a talk show.  |
---- | --- | 
+loudness | Loudness measures the decibel level of a song. Decibels are relative to a reference value, so songs with lower loudness values are quieter relative to the reference value of 0. | 
+mode | Whether the song is in a Major or Minor scale | 
+speechiness | Speechiness measures the presence of spoken words in a song. It is measured on a scale of 0.0 (low speechiness) to 1.0 (high speechiness). Songs with higher speechiness are mostly composed of spoken words, like poetry or a talk show.  | 
 tempo | Tempo measures the beats per minute (bpm) of a song. Many popular songs range from 50 bpm to 200 bpm. Songs with higher tempo have a faster pace. |
---- | --- | 
-valence | valence measures the positivity of a song. It is measured on a scale from 0.0 (low valence) to 1.0 (high valence). Songs with higher valence sound happier and more cheerful.|
---- | --- | 
+valence | valence measures the positivity of a song. It is measured on a scale from 0.0 (low valence) to 1.0 (high valence). Songs with higher valence sound happier and more cheerful.| 
 
 
 
