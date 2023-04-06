@@ -22,6 +22,7 @@ This idea could be used in many ways. We could use this to classify songs with a
 * How accurate is our model in the prediction of song genre?
 
 ## Contributors:
+Ivan Cheng, Tanvi Jain, Ethan Yeo
 
 ## Dataset Description :
 We used a dataset from [Aneta Kovacheva on Kaggle](https://www.kaggle.com/code/anetakovacheva/interpreting-a-music-genre-classifier) for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
@@ -45,11 +46,6 @@ speechiness | Speechiness measures the presence of spoken words in a song. It is
 tempo | Tempo measures the beats per minute (bpm) of a song. Many popular songs range from 50 bpm to 200 bpm. Songs with higher tempo have a faster pace. |
 valence | valence measures the positivity of a song. It is measured on a scale from 0.0 (low valence) to 1.0 (high valence). Songs with higher valence sound happier and more cheerful.| 
 
-
-
-
-
-
 ## Models Used:
 1) Multi-Variate Decision Tree
 2) Random Forest Classifier (?)
@@ -66,6 +62,7 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 2. [Dataset](https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv)
 3. [Grid Search and Cross-Validation](https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b) 
 4. [Label Encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd) 
+5. [K-Cross validation to find the oiptimal depth of a tree](https://towardsdatascience.com/how-to-find-decision-tree-depth-via-cross-validation-2bf143f0f3d6)
 
 
 
