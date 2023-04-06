@@ -62,10 +62,10 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 ## Learning Points:
 
 ## References:
-1. Explanation for zero value of probability of chi-square hypothesis : https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0
-2. Dataset : taken from https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv
-3. Grid Search and Cross-Validation : https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b 
-4. Label Encoding : https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd 
+1. [Explanation for zero value of probability of chi-square hypothesis](https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0)
+2. [Dataset](https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db#SpotifyFeatures.csv)
+3. [Grid Search and Cross-Validation](https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b) 
+4. [Label Encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd) 
 
 
 
