@@ -48,7 +48,7 @@ valence | valence measures the positivity of a song. It is measured on a scale f
 
 ## Models Used:
 1) Multi-Variate Decision Tree
-2) Random Forest Classifier (?)
+2) Random Forest Classifier
 
 ## Conclusion:
 Upon generating boxplots for the numeric variables against the genre, we learnt that popularity is the variable with the most influence on the genre of the song. This means that different genres of music enjoy different levels of popularity, with the median for the boxplot being highest for hip-hop and pop. This gives us insight into the listening habits of our generation : that we enjoy pop and hip-hop over lower-ranking genres such as Classical Music. 
