@@ -53,6 +53,15 @@ valence | valence measures the positivity of a song. It is measured on a scale f
 ## Conclusion:
 Upon generating boxplots for the numeric variables against the genre, we learnt that popularity is the variable with the most influence on the genre of the song. This means that different genres of music enjoy different levels of popularity, with the median for the boxplot being highest for hip-hop and pop. This gives us insight into the listening habits of our generation : that we enjoy pop and hip-hop over lower-ranking genres such as Classical Music. 
 
+* Popularity is the variable with the most influence on the genre of the song.
+* Different genres of music enjoy different levels of popularity, with the median for the boxplot being highest for hip-hop and pop.
+* Accuracy of our models was more when we used a dataset with fewer genres as opposed to one with a lot more.
+* Using more predictors gave us a more accurate result. 
+* Using K-Cross Validation and GridSearch CV improved the accuracy of our models significantly.
+* Random forest classifiers generated a better outcome than decision tree with train 66% and test 56% music genres correctly classified.
+* Managed to get above 0.5% accuracy for both test and train datasets which show that although it may not be the most optimal model to classify song genre, it is still accurate on average. 
+* Hence, It is possible to predict the genre of a song using its auditory characteristics. However, there are more to be explored.
+
 
 
 ## Learning Points:
