@@ -66,9 +66,9 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 
 ## Learning Points:
 
-* Collaborating with othere using GitHub.
+* Collaborating with others using GitHub.
 * Implementation of Chi-Square test, using p-values to measure the correlation between two categorical variables.
-* The use of K-Cross Validation to determine the optimal depth of a tree that should be sued to provide the most accurate results.
+* The use of K-Cross Validation to determine the optimal depth of a tree that should be used to provide the most accurate results.
 * Encoding categorical variables using Label Encoder.
 * How to predict a categorical variable using both numeric and categorical predictors.
 * Usage of Random Forest Classifier from SKLearn.
