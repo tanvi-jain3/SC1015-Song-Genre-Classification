@@ -29,7 +29,7 @@ This idea could be used in many ways. We could use this to classify songs with a
 Ivan Cheng, Tanvi Jain, Ethan Yeo
 
 ## Dataset Description :
-We used a dataset from [Aneta Kovacheva on Kaggle](https://www.kaggle.com/code/anetakovacheva/interpreting-a-music-genre-classifier) for this project. It shows the measure of different qualities (i.e. energy, valence, etc) in different songs. Below is the description of the columns in the dataset.
+We used a dataset from Aneta Kovacheva on Kaggle in different songs. Below is the description of the columns in the dataset.
 
 Name of Variable | Description of variable
 --- | --- |
