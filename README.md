@@ -81,7 +81,7 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 
 ## References:
 1. [Explanation for zero value of probability of chi-square hypothesis](https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0)
-2. [Dataset]https://www.kaggle.com/datasets/vicsuperman/prediction-of-music-genre
+2. [Dataset](https://www.kaggle.com/datasets/vicsuperman/prediction-of-music-genre)
 3. [Grid Search and Cross-Validation](https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b) 
 4. [Label Encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd) 
 5. [K-Cross validation to find the oiptimal depth of a tree](https://towardsdatascience.com/how-to-find-decision-tree-depth-via-cross-validation-2bf143f0f3d6)
