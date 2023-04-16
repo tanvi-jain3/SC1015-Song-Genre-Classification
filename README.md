@@ -12,6 +12,8 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 3: Machine Learning  
 
+Note: Data Science Mini_Project file is the compliation of the files 1, 2 and 3.
+
 
 ## Problem Statement:
 
