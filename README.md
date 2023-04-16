@@ -85,7 +85,11 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 3. [Grid Search and Cross-Validation](https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b) 
 4. [Label Encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd) 
 5. [K-Cross validation to find the oiptimal depth of a tree](https://towardsdatascience.com/how-to-find-decision-tree-depth-via-cross-validation-2bf143f0f3d6)
-
+6. [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+7. [DropRowsBasedonValues](https://sparkbyexamples.com/pandas/pandas-delete-rows-based-on-column-value/)
+8. [KDEPlot](https://seaborn.pydata.org/generated/seaborn.kdeplot.html#:~:text=A%20kernel%20density%20estimate%20(KDE,dataset%2C%20analogous%20to%20a%20histogram.)
+9. [RemoveNull&DuplicateVal](https://pythontic.com/pandas/dataframe-manipulations/duplicates-and-missing-values)
+10. [ExportDataframetoCSV](https://www.freecodecamp.org/news/dataframe-to-csv-how-to-save-pandas-dataframes-by-exporting/#:~:text=to_csv()%20Method,format%20for%20storing%20tabular%20data.)
 
 
 
