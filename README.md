@@ -80,6 +80,8 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 * Usage of Random Forest Classifier from SKLearn.
 * Handling an unclean dataset with irregular values.
 
+## Appendix :
+ [Link to Slides used for presentation](https://docs.google.com/presentation/d/1jQJcfeX8oXbnQYaSih00dcNmhmKVB4A4bJBZCezUgts/edit?usp=sharing).   
 
 ## References:
 1. [Explanation for zero value of probability of chi-square hypothesis](https://datascience.stackexchange.com/questions/107183/p-value-of-chi-squared-test-is-exactly-0-0)
