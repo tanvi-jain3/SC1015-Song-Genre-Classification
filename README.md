@@ -65,7 +65,7 @@ Upon generating boxplots for the numeric variables against the genre, we learnt 
 * Using more predictors gave us a more accurate result. 
 * Using K-Cross Validation and GridSearch CV improved the accuracy of our models significantly.
 * Random forest classifiers generated a better outcome than decision tree with train 66% and test 56% music genres correctly classified.
-* Managed to get above 0.5% accuracy for both test and train datasets which show that although it may not be the most optimal model to classify song genre, it is still accurate on average. 
+* Managed to get above 0.5 accuracy for both test and train datasets which show that although it may not be the most optimal model to classify song genre, it is still accurate on average. 
 * Hence, It is possible to predict the genre of a song using its auditory characteristics. However, there are more to be explored.
 
 
