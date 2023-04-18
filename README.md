@@ -31,7 +31,7 @@ This idea could be used in many ways. We could use this to classify songs with a
 Ivan Cheng, Tanvi Jain, Ethan Yeo
 
 ## Dataset Description :
-We used a dataset from (Kaggle)[https://www.kaggle.com/datasets/vicsuperman/prediction-of-music-genre] which was taken from the Spotify API. Below is the description of the columns in the dataset.
+We used a [dataset from Kaggle](https://www.kaggle.com/datasets/vicsuperman/prediction-of-music-genre) which was taken from the Spotify API. Below is the description of the columns in the dataset.
 
 Name of Variable | Description of variable
 --- | --- |
